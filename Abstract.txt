@@ -1,0 +1,22 @@
+Abstract
+
+Fire is an extremely destructive force in the nature that can lead to accidental injuries and 
+economical losses, it also can reduce an entire forest or building into ashes. Detection of 
+fire at early stages has been a very popular research interest. There are various kinds of fire 
+detection algorithms present in current applications. Some of them are based on image 
+processing technology and the others are based on neural network technology. As image 
+processing may lead to false detection because of randomness in case of feature selection 
+we propose convolutional neural network because of its high accuracy recognition rate, 
+greater performance in image classification and computer recognition tasks in a wide range 
+of applications. In this paper we propose the VGG16, ResNet50, DenseNet121, 
+EfficientNet architectures, pretrained versions of the network trained on more than a 
+million images from the ImageNet database for fire image classification purpose. Also for 
+improving the model accuracy and achieving robustness of the model which is easier and 
+more powerful than single algorithm selection, we have applied ensemble method of those 
+Pre-trained architectures. Since detection of fire at early stage is very important for 
+avoiding hazard we worked on an approach to localize fire at primary stage using an 
+advanced CNN architecture and OpenCV which aims to achieve low false alarm rate, high 
+detection rate and detection of fire at high speed. 
+
+Keyword: CNN, Deep-learning, Architectures, VGG16, ResNet50, DenseNet121, 
+EfficientNet, Ensemble, Detection, OpenCV, Keras
